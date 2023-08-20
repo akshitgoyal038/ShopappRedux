@@ -1,0 +1,38 @@
+.appjs{
+    background-color: rgb(15, 14, 17);
+}
+.Navbar{
+    display:flex;
+    align-items: center;
+    height:8%;
+    justify-content: space-around;
+}
+.Navbar1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.home{
+    color:white;
+    text-decoration: none;
+    position:relative;
+}
+#cartlength{
+      position:absolute;
+      right:-1px;
+      color:rgb(60, 241, 10);
+      top:-12px;
+      justify-content: center;
+}
+.Nodata{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+.post{
+    display: grid;
+    grid-column: 4;
+    max-width: 72em;
+    padding: 2;
+}
